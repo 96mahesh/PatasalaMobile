@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="com.framework.listeners.TestNGRetry"></listener>
+    </listeners>
+    <test name="Test">
+        <parameter name="udid" value="emulator-5554"/>
+        <!--<parameter name="udid" value="RZ8T31HY1SK"/>-->
+        <!--<parameter name="udid" value="emulator-5554"/>
+       <parameter name="udid" value="aaa1ca65"/>-->
+        <parameter name="systemPort" value="8200"/>
+        <parameter name="platform" value="Android 13"/>
+        <groups>
+            <run>
+                <include name="regression"/>
+                <include name="registration_and_login"/>
+                <include name="onboarding_flow"/>
+                <include name="hashtag_details_screen"/>
+                <include name="explore_screen"/>
+                <include name="koo_creation"/>
+                <include name="user_block"/>
+                <include name="koo_detail_screen"/>
+                <include name="Profile_Screen"/>
+                <include name="Edit_profile"/>
+                <include name="search_screen"/>
+                <include name="settings_screen"/>
+                <include name="homeTab_screen"/>
+                <include name="people_tab"/>
+                <include name="newUser_flow"/>
+                <include name="Koo_Rewards"/>
+                <include name="Notification_Screen"/>
+                <include name="logOut_DeleteTest"/>
+                <include name="koo_Chats"/>
+                <include name="Topics"/>
+            </run>
+        </groups>
+   
+        <classes>
+            <class name="com.framework.android.testcases.reportUserTests.ReportUserTest">
+                <methods>
+                    <include name="verifyReportUserOptions"/>
+                </methods>
+            </class>
+            
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

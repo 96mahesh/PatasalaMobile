@@ -1,0 +1,2376 @@
+{
+  "HomeScreen" : {
+    "enterPhoneNumber_field" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.EditText"
+    },
+    "OtpButton_LanguageChange" : {
+      "locatorType" : "accessibility id",
+      "locatorValue" : "Get OTP"
+    },
+    "englishTyped_language" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@text='###'])[1]"
+    },
+    "checkBoxes_language" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@text='###'])/following-sibling::android.widget.CheckBox"
+    },
+    "signInWithMobile_button" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@text='Sign-in with Mobile'])"
+    },
+    "available_languages" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Available Languages']"
+    },
+    "comingSoon_languages" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Coming Soon']"
+    },
+
+    "back_button" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/select_lang_popup"
+    },
+    "back_button1": {
+      "locatorType": "id",
+      "locatorValue": "com.koo.app:id/select_lang_popup"
+
+    },
+    "reward_banner" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='जारी रखें']"
+    },
+    "signInPhone_button" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/phone_no_edittext"
+    },
+    "signInGoogle_button" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "chooseAccount_button" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Choose an account']"
+    },
+    "googleLoginPage_btn" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.Button[@text='Next']"
+    },
+    "select_account" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.google.android.gms:id/account_display_name"
+    },
+    "profile_registration" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/iv_profile"
+    },
+    "signInEmail_button" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/sign_with_email"
+    },
+    "otp_text" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/otp_edit_text"
+    },
+    "verify_btn" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/button_verify"
+    },
+    "profile_lnk" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/img_my_profile"
+    },
+    "signIn_Email_Btn" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/sign_with_email"
+    },
+    "signIn_Email_Heading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/login_header"
+    },
+    "enter_email" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/email_edittext"
+    },
+    "continue_email_button" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/email_continue_button"
+    },
+    "captcha_popup" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.Button[@text='VERIFY' or @text='SKIP']"
+    },
+    "change_countryCode" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/code_tv"
+    },
+    "select_countryCode" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "userName_txt" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/channel_name_textview"
+    },
+    "back_icon" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/layoutBack"
+    },
+    "resend_otp_option" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "login_heading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/phone_no_textview_subtitle"
+    },
+    "incorrect_otp_message" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/textview_footer_otp"
+    },
+    "app_Language" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text=\"###\"]"
+    },
+    "MobNo_txt" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/phone_no_edittext"
+    },
+    "OTP_btn" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/phone_no_next_button"
+    },
+    "btn_skip" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.starhub.csselfhelp.preview:id/txtSkip"
+    },
+    "feed_tab" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.starhub.csselfhelp.preview:id/txtSkip"
+    },
+    "txt_homescreen" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.starhub.csselfhelp.preview:id/imvLogo"
+    },
+    "btn_login" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.starhub.csselfhelp.preview:id/tvLogin"
+    },
+    "btn_loginwithHubId" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.starhub.csselfhelp.preview:id/layoutRoot"
+    },
+    "btn_setuplater" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Set up later']"
+    },
+    "btn_Hub_ID" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.starhub.csselfhelp.preview:id/etEmail"
+    },
+    "btn_pwd" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.starhub.csselfhelp.preview:id/etPassword"
+    },
+    "btn_login_hubid" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Login']"
+    },
+    "btn_entertainment" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Entertainment']"
+    },
+    "btn_amazon" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Amazon Prime']"
+    },
+    "btn_hotstar" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Hotstar']"
+    },
+    "btn_explore" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Explore']"
+    },
+    "btn_Next" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Next']"
+    },
+    "btn_accept_terms" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.starhub.csselfhelp.preview:id/cbAcceptTerm"
+    },
+    "btn_subscribe" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@text='Subscribe now'])[1]"
+    },
+    "btn_x" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.starhub.csselfhelp.preview:id/imv_option_close"
+    },
+    "btn_ok" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.Button[@text='Ok']"
+    },
+    "txt_verifyhotstar" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.starhub.csselfhelp.preview:id/tvHeaderSubTitle"
+    },
+    "btn_mobile" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Mobile']"
+    },
+    "btn_done" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Done']"
+    },
+    "btn_local" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Local']"
+    },
+    "btn_addons" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Add-ons']"
+    },
+    "btn_otheraddonsManage" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@text='Manage'])[2]"
+    },
+    "btn_manage" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Manage']"
+    },
+    "btn_add" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@text='Add'])[1]"
+    },
+    "btn_reviewchanges" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Review changes']"
+    },
+    "btn_submit" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Submit']"
+    },
+    "btn_OK" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.Button[@text='OK']"
+    },
+    "btn_closeimage" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.starhub.csselfhelp.preview:id/imgClose"
+    },
+    "btn_back" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.starhub.csselfhelp.preview:id/ic_left"
+    },
+    "btn_verify_request" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='We are processing a request']"
+    },
+    "btn_pending" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@text='PENDING'])[1]"
+    }
+  },
+  "OnBoardingFlow" : {
+    "feedTab_Text" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "topicsArrangedCategories" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//androidx.compose.ui.platform.ComposeView[@resource-id='com.koo.app:id/topicFollowUnfollow']"
+    },
+    "userName_Field" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/et_name"
+    },
+    "continueButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/bt_continue"
+    },
+    "cameraIconOnGalleryPage" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/album_image"
+    },
+    "interestText" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/preferenceName'])[1]"
+    },
+    "interestCheckbox" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.CheckBox[@resource-id='com.koo.app:id/checkbox']"
+    },
+    "skipButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/skip_btn"
+    },
+    "preferences" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@resource-id='com.koo.app:id/preferenceName']"
+    },
+    "topicElement" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//androidx.compose.ui.platform.ComposeView[@resource-id='com.koo.app:id/topicFollowUnfollow']//following-sibling::android.widget.TextView"
+    },
+    "selectedTopicOnFeed" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.view.ViewGroup[@resource-id='com.koo.app:id/justification_container']//following-sibling::android.widget.TextView"
+    },
+    "followProfilePlusButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@resource-id='com.koo.app:id/ivPlus']"
+    },
+    "kooHeaderForSelectedInterest" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_koo_header"
+    }
+  },
+  "NewUserFlow" : {
+    "topFiftyBulkFollowBtn" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_follow_all_text"
+    },
+    "referNowButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/btn_refer_now_big"
+    },
+    "exploreAllProfiles" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_explore_text"
+    },
+    "segmentBulkFollow" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/category_bulk_follow_recyclerview"
+    },
+    "followAllButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/lay_follow_all"
+    },
+    "allFollowedUsersCount" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/following_count_textview"
+    },
+    "miniPillButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/pillMainLayout"
+    },
+    "smallImagesOnMiniPill" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.view.ViewGroup[@resource-id='com.koo.app:id/pillMainLayout']//following-sibling::android.widget.FrameLayout//android.view.ViewGroup//android.widget.ImageView"
+    },
+    "segmentBulkFollowButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//androidx.recyclerview.widget.RecyclerView[@resource-id='com.koo.app:id/category_bulk_follow_recyclerview']//following-sibling::android.view.ViewGroup)//android.widget.LinearLayout[@resource-id='com.koo.app:id/btnFollowView']"
+    },
+    "segmentBulkFollowCategoryText" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//androidx.recyclerview.widget.RecyclerView[@resource-id='com.koo.app:id/category_bulk_follow_recyclerview']//following-sibling::android.widget.TextView)[2]"
+    },
+    "followAll" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='50+']"
+    },
+    "suggestedPeople" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/text_header_suggestpeople"
+    },
+    "checkBox" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.CheckBox[@resource-id='com.koo.app:id/checkbox']"
+    },
+    "followPeopleButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/follow_action_btn"
+    }
+  },
+  "ExploreScreen" : {
+    "allSubTabs" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/rvNearBy"
+    },
+    "tabName" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "hashTag_image" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@resource-id='com.koo.app:id/ivPoster']"
+    },
+    "headingOf_firstHashTag" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@resource-id='com.koo.app:id/toolbar_heading_textview']"
+    },
+    "all_sub_tab" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/tvLocationPill'])"
+    },
+    "write_comment" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/creation_view"
+    },
+    "write_commentSection" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.EditText"
+    },
+    "button_post" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.Button"
+    },
+    "viewComment_icon" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/comment_imageview"
+    },
+    "posted_comment" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@text='###']//..//..)[1]//following-sibling::android.view.ViewGroup//android.widget.TextView[@resource-id='com.koo.app:id/topic_title_textview']"
+    }
+  },
+  "TopicsTab" : {
+    "ner_tags" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@resource-id='com.koo.app:id/hashtagTitle']"
+    }
+  },
+  "KooDetailScreen": {
+    "kooDetailTitle": {
+      "locatorType": "xpath",
+      "locatorValue": "//android.widget.TextView[@resource-id='com.koo.app:id/hashtagTitle']"
+    },
+    "writeCommentsBar": {
+      "locatorType": "xpath",
+      "locatorValue": "//android.widget.ImageView[@resource-id='com.koo.app:id/comment_channel_imageview']//following-sibling::android.widget.TextView"
+    },
+    "pollKooIcon": {
+      "locatorType": "xpath",
+      "locatorValue": "//android.view.View[@content-desc='add_poll']"
+    },
+    "profileIDOnSearchResult": {
+      "locatorType": "xpath",
+      "locatorValue": "//android.widget.TextView[@text='###']"
+    },
+    "pollPercentage": {
+      "locatorType": "xpath",
+      "locatorValue": "//android.widget.ImageView[@resource-id='com.koo.app:id/iv_selected']/following-sibling::android.widget.TextView[@resource-id='com.koo.app:id/tv_percent']"
+    },
+    "pollKooTextField": {
+      "locatorType": "xpath",
+      "locatorValue": "(//android.widget.EditText)[###]"
+    },
+    "bigFollowButton": {
+      "locatorType": "id",
+      "locatorValue": "com.koo.app:id/btn_follow_big"
+    },
+    "writeYourCommentForSpecificUser": {
+      "locatorType": "xpath",
+      "locatorValue": "(//android.widget.TextView[@text='###']//..//..)[1]//following-sibling::android.view.ViewGroup[@resource-id='com.koo.app:id/koo_feed_item_container']//android.widget.TextView[@resource-id='com.koo.app:id/creation_view']"
+    },
+    "commentTextCount": {
+      "locatorType": "id",
+      "locatorValue": "com.koo.app:id/comment_textview"
+    },
+    "commentTextCountForKoo": {
+      "locatorType": "xpath",
+      "locatorValue": "//android.widget.TextView[@resource-id='com.koo.app:id/comment_textview']"
+    },
+    "likeReactionBelowCommentSection": {
+      "locatorType": "xpath",
+      "locatorValue": "//android.widget.TextView[@text='###']//..//..[@class='android.view.ViewGroup']//following-sibling::android.view.ViewGroup//android.view.ViewGroup[@resource-id='com.koo.app:id/like_holder_constraint']"
+    },
+    "commentReactionBelowCommentSection": {
+      "locatorType": "xpath",
+      "locatorValue": "//android.widget.TextView[@text='###']//..//..[@class='android.view.ViewGroup']//following-sibling::android.view.ViewGroup//android.view.ViewGroup[@resource-id='com.koo.app:id/comment_holder_constraint']"
+    },
+    "rekooReactionBelowCommentSection": {
+      "locatorType": "xpath",
+      "locatorValue": "//android.widget.TextView[@text='###']//..//..[@class='android.view.ViewGroup']//following-sibling::android.view.ViewGroup//android.widget.ImageView[@resource-id='com.koo.app:id/rekoo_imageview']"
+    },
+    "whatsAppReactionBelowCommentSection": {
+      "locatorType": "xpath",
+      "locatorValue": "//android.widget.TextView[@text='###']//..//..[@class='android.view.ViewGroup']//following-sibling::android.view.ViewGroup//android.widget.ImageView[@resource-id='com.koo.app:id/whatsapp_share_iv']"
+    },
+    "shareReactionBelowCommentSection": {
+      "locatorType": "xpath",
+      "locatorValue": "//android.widget.TextView[@text='###']//..//..[@class='android.view.ViewGroup']//following-sibling::android.view.ViewGroup//android.widget.ImageView[@resource-id='com.koo.app:id/generic_share_iv']"
+    },
+    "profileUserName": {
+      "locatorType": "xpath",
+      "locatorValue": "(//android.widget.TextView[@text='###'])[1]"
+    },
+    "viewMoreLink": {
+      "locatorType": "id",
+      "locatorValue": "com.koo.app:id/more_tv"
+    },
+    "playButtonOnVideo": {
+      "locatorType": "id",
+      "locatorValue": "com.koo.app:id/play"
+    },
+    "languageDoneButton": {
+      "locatorType": "xpath",
+      "locatorValue": "//android.view.View[@content-desc='language_done']"
+    },
+    "postedKooText": {
+      "locatorType": "xpath",
+      "locatorValue": "//android.widget.TextView[@text='###']"
+    },
+    "postedCommentIcon": {
+      "locatorType": "xpath",
+      "locatorValue": "//android.widget.TextView[@text='###']//..//..//android.widget.FrameLayout[@resource-id='com.koo.app:id/layout_interactions_single_feed']//android.widget.ImageView[@resource-id='com.koo.app:id/comment_imageview']"
+    },
+    "viewMoreForComments": {
+      "locatorType": "xpath",
+      "locatorValue": "(//android.widget.ImageView[@resource-id='com.koo.app:id/iv_options_more'])[2]"
+    },
+    "hideUnHideComment": {
+      "locatorType": "xpath",
+      "locatorValue": "//android.widget.TextView[@resource-id='com.koo.app:id/itemhideReply']"
+    },
+    "hideCommentEyeIcon": {
+      "locatorType": "xpath",
+      "locatorValue": "//android.widget.LinearLayout[@resource-id='com.koo.app:id/layout_hidden_comments']"
+    }
+  },
+  "UserBlock" : {
+    "viewMore_options" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[not(contains(@text,'###')) and @resource-id='com.koo.app:id/channel_name_textview']//..//android.widget.ImageView[@resource-id='com.koo.app:id/iv_options_more']"
+    },
+    "blockUnblockButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/itemblockUser"
+    },
+    "blockUnblockButtonWithText" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "blockUnblockPopUpText" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@resource-id='android:id/message']"
+    },
+    "noButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.Button[@resource-id='android:id/button2']"
+    },
+    "okButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.Button[@resource-id='android:id/button1']"
+    },
+    "searchedUserResult" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/channel_name_textview"
+    },
+    "searchedUserName" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "threeDots" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/layoutOptionMenu"
+    },
+    "closeButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/bottom_sheet_close"
+    },
+    "backButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/layoutBack"
+    },
+    "homeButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/lottie_home"
+    },
+    "settings" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/settings"
+    },
+    "manageBlockedUser" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.RelativeLayout[@resource-id='com.koo.app:id/blocked_list_layout']//android.widget.TextView"
+    },
+    "unblockButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/unblock"
+    },
+    "viewProfileButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/view_profile"
+    },
+    "profileName" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/channel_name_textview"
+    },
+    "backButton_arrow" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/backArrow"
+    },
+    "logOutUser" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/logout_layout"
+    },
+    "logOutUser_popup" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tvFollow"
+    },
+    "searchedUserFrame" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/channel_name_textview"
+    },
+    "cancelButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/cancel_button"
+    },
+    "commentHolder" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/comment_holder"
+    },
+    "postedCommentWithSpecificUser" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@text='###']//..//..)[1]//following-sibling::android.view.ViewGroup//android.widget.TextView[@resource-id='com.koo.app:id/topic_title_textview']"
+    },
+    "multipleBlockedUsers" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@resource-id='com.koo.app:id/unblock']"
+    },
+    "deleteAccount" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/delete_account_layout"
+    }
+    
+  },
+  "Elements" : {
+    "plusKooButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@resource-id='com.koo.app:id/koo_using_hashtag_text'][contains(@text,'+')]"
+    }
+  },
+  "RegistrationFlow" : {
+    "addAccount" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_add_account"
+    },
+    "expandProfile" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/expand_profiles"
+    },
+    "addAccountLink" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_add_account"
+    },
+    "settingsIcon" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/settings_holder"
+    }
+  },
+  "SettingsPage" : {
+    "settingsSectionHeading" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text=\"###\"]"
+    },    
+    "continueBtnForBrowserPermission" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.android.chrome:id/positive_button"
+    },
+    "editProfileHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/toolbar_heading_textview"
+    },
+    "shareKooPopUpHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "miui:id/alertTitle"
+    },
+    "shareKooPopUp" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@resource-id='android:id/text1']"
+    },
+    "applySelfVerificationPageHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/enter_otp_header"
+    },
+    "applySelfEminenceAndHelp" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.android.chrome:id/url_bar"
+    },
+    "crossButtonForCloseTab" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.android.chrome:id/close_button"
+    },
+    "migrateFromTwitterPopUpHeading" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "migrateFromTwitterCloseButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "manageAccountAndNotificationsPageHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/toolbar_heading_textview"
+    },
+    "logOutPopUpHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/status_textview"
+    },
+    "cancelButtonOnLogOutPopUp" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tvCancel"
+    },
+    "deletePopUPText" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[contains(@text,'###')]"
+    },
+    "privacyPolicyAndAboutUsPage" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.view.View[@text='###']"
+    },
+    "changeInEnglishText" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "switchButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']/../..//android.widget.Switch"
+    }
+  },
+  "Screens" : {
+    "trendingTagHeading" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/header_text'])[1]"
+    },
+    "trendingTags" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@resource-id='com.koo.app:id/topic_title']"
+    },
+    "mostFollowedPeopleHeading" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/header_text'])[2]"
+    },
+    "followButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@resource-id='com.koo.app:id/tvFollow']"
+    },
+    "recentSearchHeading" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/header_text'])[1]"
+    },
+    "recentSearchValue" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tvRecentSearch"
+    },
+    "backArrowFromSearch" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/img_search_backarrow"
+    },
+    "searchAllResultLink" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_see_all_results"
+    },
+    "leftSearchIcon" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/search_icon"
+    },
+    "searchAllResultTabs" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.HorizontalScrollView[@resource-id='com.koo.app:id/tab_layout']//following-sibling::android.widget.TextView"
+    },
+    "noResultFoundMessage" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_no_result"
+    },
+    "tabForSearchResult" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "profileResults" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.FrameLayout[@resource-id='com.koo.app:id/fl_follow_layout']"
+    },
+    "kooResults" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.view.ViewGroup[@resource-id='com.koo.app:id/koo_feed_item_container'])[2]"
+    },
+    "pagination" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.LinearLayout[@resource-id='com.koo.app:id/name_score_layout']"
+    },
+    "userFollowButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']/../..//android.widget.FrameLayout[@resource-id='com.koo.app:id/follow_layout']"
+    }
+  },
+  "HashTagScreen" : {
+    "whatsOnYourMind" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/creation_view"
+    },
+    "hasTag_PopUp" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[contains(@text,'#')]"
+    },
+    "search_icon" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/lottie_search"
+    },
+    "back_button" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@content-desc=\"Back Button\"]"
+    },
+    "searchBar_field" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/search_edit_text"
+    },
+    "viewMore_link" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[contains(@text,'View more')]"
+    },
+    "hashtagExplore_icon" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/lottie_explore"
+    },
+    "hashtag_screen_tab" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "hashtag_post" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/hashtagTitle'][contains(@text,'#')])[1]"
+    },
+    "hashtagIn_post" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[contains(@text,'#')])[2]"
+    },
+    "hashtag_post_heading" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@resource-id='com.koo.app:id/toolbar_heading_textview']"
+    },
+    "back_arrow_button" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@resource-id='com.koo.app:id/backArrow']"
+    },
+    "share_hashtag_button" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@resource-id='com.koo.app:id/ivShare']"
+    },
+    "profileImageFor_hashTagKoo" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[contains(@text,'#')])[1]//following-sibling::android.widget.FrameLayout//android.view.ViewGroup//android.widget.ImageView[not(contains(@resource-id,'com.koo.app:id/img_dot'))]"
+    },
+    "plusIconFor_hashtagKoo" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[contains(@text,'#')]//..//..//android.widget.ImageView[@resource-id='com.koo.app:id/hashtag_create'])[1]"
+    },
+    "selectedHashTag_attribute" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.EditText"
+    },
+    "plusIconFor_NERTagKoo" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[not(contains(@text,'#'))]//..//..//android.widget.ImageView[@resource-id='com.koo.app:id/hashtag_create'])[1]"
+    },
+    "user_Image" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@content-desc='User Image']"
+    }
+  },
+  "HomeScreenTab" : {
+    "trendingTagsIcon" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/trending_feed_imageview"
+    },
+    "timeElapsedForVideo" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/time_elapsed"
+    },
+    "kooDetail" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/topic_title_textview"
+    },
+    "commentsSectionHeading" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "chatIcon" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/lottie_messages"
+    },
+    "notificationIcon" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/lottie_notification"
+    },
+    "startConversationButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_start_conversation"
+    },
+    "notificationPreferenceIcon" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/notification_preferences"
+    },
+    "redDotIndicator" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/custom_tab_indicator"
+    },
+    "redDotIndicatorNextTab" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "((//android.widget.TextView[@text='###']//..//..//..)//following-sibling::android.widget.LinearLayout)//android.view.View[@resource-id='com.koo.app:id/custom_tab_indicator']"
+    },
+    "kooBirdIcon" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/koo_bird"
+    },
+    "followButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/itemfollowUser"
+    },
+    "viewKoosFromButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/pillMainLayout"
+    },
+    "viewKoosFromProfileImage" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.view.ViewGroup[@resource-id='com.koo.app:id/pillMainLayout']//following-sibling::android.view.ViewGroup[@resource-id='com.koo.app:id/images_container']"
+    },
+    "fiveProfileIcons" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.view.ViewGroup[@resource-id='com.koo.app:id/images_container'])[1]/android.widget.ImageView"
+    },
+    "profileImageOfKoo" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.view.ViewGroup[@resource-id='com.koo.app:id/profile_image_holder']"
+    },
+    "dynamicBanner" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/root_single_user_big"
+    },
+    "dynamicBannerText" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/channel_name"
+    },
+    "trendingKooIcon" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/iv_trending"
+    },
+    "trendingKooPageHeading" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "refreshButtonOnTrendingKooPage" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/btnRefresh"
+    },
+    "kooCreationTimeStamp" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/koo_time_creation_tv"
+    },
+    "likeHolderIconOnReactionBar" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/like_holder_constraint"
+    },
+    "commentHolderIconOnReactionBar" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/comment_holder_constraint"
+    },
+    "rekooHolderIconOnReactionBar" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/rekoo_holder_constraint"
+    },
+    "whatsappShareIconOnReactionBar" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/whatsapp_holder_constraint"
+    },
+    "shareIconOnReactionBar" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/share_holder_constraint"
+    },
+    "kooText" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/topic_title_textview"
+    },
+    "kooImage" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/single_image"
+    }
+  },
+  "Carousel" : {
+    "horizontalCarousel" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.view.ViewGroup[@resource-id='com.koo.app:id/item_container']"
+    },
+    "followButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.LinearLayout[@resource-id='com.koo.app:id/btnFollowView']"
+    },
+    "unfollowButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']//..//..//androidx.appcompat.widget.LinearLayoutCompat//android.widget.ImageView[@resource-id='com.koo.app:id/view_follow']"
+    },
+    "tickButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.LinearLayout[@resource-id='com.koo.app:id/btnFollowView']"
+    },
+    "arrowButtonForPeopleYouFollow" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@resource-id='com.koo.app:id/view_all_textview']"
+    },
+    "peopleYouFollowPageHeading" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@resource-id='com.koo.app:id/toolbar_heading_textview']"
+    },
+    "boostedProfileIcon" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/boosted_profile_icon"
+    },
+    "boostedProfilePopUpHeading" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "crossButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/iv_close"
+    }
+  },
+  "peopleTab" : {
+    "discoverRelevantPeople" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@text='###']//ancestor::android.view.ViewGroup)[3]//following-sibling::android.widget.TextView[@resource-id='com.koo.app:id/title']"
+    },
+    "followButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.LinearLayout[@resource-id='com.koo.app:id/btnFollowView']"
+    },
+    "peopleTabProfile" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@resource-id='com.koo.app:id/channel_name_textview']"
+    },
+    "allowPermission" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.android.packageinstaller:id/permission_allow_button"
+    },
+    "allowPermission_1" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.android.permissioncontroller:id/permission_allow_button"
+    },
+    "findYourFriendsButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.Button[@text='###']"
+    },
+    "yourFriendsHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/toolbar_heading_textview"
+    },
+    "inviteButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "alertTitle" : {
+      "locatorType" : "id",
+      "locatorValue" : "miui:id/alertTitle"
+    },
+    "peopleTabSectionHeading" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    }
+  },
+  "KooCreation" : {
+    "Chkbox_Select_Language" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text=\"###\"]"
+    },
+    "OTP_btn" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/phone_no_next_button"
+    },
+    "viewPostedKooButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/custom_snackbar_action_btn"
+    },
+    "selectImage" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.view.View[@content-desc=\"media_grid\"])[1]/android.view.View[1]"
+    },
+    "nextButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Next']"
+    },
+    "addImageButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.view.View[@content-desc=\"add_image\"]"
+    },
+    "enablePermissionButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView)[3]"
+    },
+    "lbl_OTP" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/otp_edit_text"
+    },
+    "btn_verify" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/button_verify"
+    },
+    "tab_feed" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView)[1]"
+    },
+    "btn_plus" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//*[@resource-id='com.koo.app:id/circular_fab_plus'])[2]"
+    },
+    "btn_Schedule" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@content-desc='Back Button']/../android.view.View[1]"
+    },
+    "btn_draft" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@content-desc='Back Button']/../android.view.View[2]"
+    },
+    "txt_languages" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.view.View)[8]"
+    },
+    "btn_no" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@content-desc='negativeButton']"
+    },
+    "btn_post" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text=\"###\"]"
+    },
+    "txt_Message" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.EditText"
+    },
+    "btn_addlanguage_plus" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.view.View[@content-desc='add_language']"
+    },
+    "checkbox_selectLanguage" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.view.View)[14]"
+    },
+    "checkbox_selectLanguage1" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Telugu']"
+    },
+    "btn_done_" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.Button"
+    },
+    "btn_next" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "txt_preview" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "txt_profileicon" : {
+      "locatorType" : "id",
+      "locatorValue" : "//android.widget.TextView[@text='Just Now']"
+    },
+    "btn_remove" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.view.View[@content-desc='koo_create_preview_close'])[2]"
+    },
+    "btn_undo" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.view.View[@content-desc='koo_create_preview_undo']"
+    },
+    "btn_add_poll" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.view.View[@content-desc='add_poll']"
+    },
+    "btn_add_image" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.view.View[@content-desc='add_image']"
+    },
+    "btn_add_video" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.view.View[@content-desc='add_video']"
+    },
+    "btn_add_link" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.view.View[@content-desc='add_link_micro']"
+    },
+    "btn_add_speechtotext" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.view.View[@content-desc='speech_to_text']"
+    },
+    "btn_settings" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.view.View[@content-desc='settings']"
+    },
+    "txt_comment_preferences" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@content-desc='comment_preference']"
+    },
+    "txt_keyboard_preferences" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@content-desc='keyboard_preference']"
+    },
+    "chkbox_everyone" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.CheckBox[@content-desc='###']"
+    },
+    "chkbox_peopleyoufollow" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.CheckBox[@content-desc='###']"
+    },
+    "chkbox_noone" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.CheckBox[@content-desc='###']"
+    },
+    "chkbox_auto_transliteration_keyboard" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.CheckBox[@content-desc='###']"
+    },
+    "btn_ScheduleKoo" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "btn_ScheduleKoo2" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.view.View)[4]"
+    },
+    "btn_ViewScheduledKoos" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "btn_ScheduleKoo1" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.Button)[3]"
+    },
+    "btn_skipandpost" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.Button)[4]"
+    },
+    "btn_ScheduleKoomessage" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "btn_okScheduleKoo" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@content-desc='positiveButton']"
+    },
+    "txt_scheduledanddrafts" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[contains(@text,'###')]"
+    },
+    "btn_published" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[contains(@text,'###')]"
+    },
+    "btn_upcoming" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[contains(@text,'###')]"
+    },
+    "btn_draft1" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[contains(@text,'###')]"
+    },
+    "btn_drafts" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Scheduled & Drafts']"
+    },
+    "menu_hamberger" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/iv_options_more"
+    },
+    "btn_editkoo" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/itemEditContent"
+    },
+    "btn_deletekoo" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/itemDeleteContent"
+    },
+    "btn_yes" : {
+      "locatorType" : "id",
+      "locatorValue" : "android:id/button1"
+    },
+    "btn_savetodrafts" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "btn_viewdrafts" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "menu_drafthamberger" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.ImageView[@resource-id='com.koo.app:id/iv_options_more'])[1]"
+    },
+    "btn_exclusive" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "btn_exclusive_ok" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView)[3]"
+    },
+    "txt_postHeader" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/channel_name_textview"
+    },
+    "btn_shareonWhatsp" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tvWhatsAppStatus"
+    },
+    "btn_shareonFacebook" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tvShareFacebook"
+    },
+    "everyone_chkbx" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.CheckBox[@content-desc='Everyone_checkbox_true']"
+    },
+    "btn_reKoo" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/rekoo_imageview"
+    },
+    "rekoo_popup" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_add_comment_to_this_rekoo"
+    },
+    "rekoo_no" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/rekooNo"
+    },
+    "btn_mlkeditkoo1" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.view.View[@content-desc='koo_create_preview_edit'])[1]"
+    },
+    "txt_editText1" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.EditText[@content-desc='koo_create_preview_text'])[1]"
+    },
+    "txt_editText2" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.EditText[@content-desc='koo_create_preview_text'])[2]"
+    },
+    "btn_dlthmbrgrmenu" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.ImageView[@resource-id='com.koo.app:id/iv_options_more'])[1]"
+    },
+    "btn_dltkooinfeed" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/itemDeleteContent"
+    },
+    "txt_dltkoo" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/itemDeleteContent"
+    },
+    "btn_profile" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/clProfile"
+    },
+    "btn_yesdltkoo" : {
+      "locatorType" : "id",
+      "locatorValue" : "android:id/button1"
+    },
+    "btn_threadkoo" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@content-desc='Back Button']/../android.view.View[12]"
+    },
+    "txt_errorMsg" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@content-desc='koo_create_textField']"
+    },
+    "btn_editProfileClose" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.view.View[@content-desc='close']"
+    },
+    "btn_addGIF" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.view.View[@content-desc='add_gif']"
+    },
+    "btn_addGIFImage" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.view.View)[8]"
+    },
+    "btn_language2" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.view.View)[14]"
+    },
+    "btn_language3" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.view.View)[16]"
+    },
+    "btn_language1" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.view.View)[12]"
+    },
+    "txt_posted" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.EditText[@content-desc='koo_create_textField']"
+    },
+    "btn_editKoo" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/itemEditContent"
+    },
+    "txt_editedKoo" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/topic_title_textview"
+    },
+    "btn_like" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/like_imageview"
+    },
+    "txt_bftEditTxt" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.EditText"
+    },
+     "txt_threadkoo1" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/topic_title_textview'])[1]"
+    },
+     "txt_threadkoo2" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/topic_title_textview'])[2]"
+    },
+     "btn_backinMLK" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@content-desc='Back Button']"
+    }
+    
+  },
+  "EditProfile" : {
+    "btn_editprofile" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/edit_profile_button"
+    },
+    "txt_editprofile" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/toolbar_heading_textview"
+    },
+    "txt_nameHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/float_name"
+    },
+    "txt_handleHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/float_handle"
+    },
+    "txt_professionHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/float_profession"
+    },
+    "txt_currentlocationHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/float_currentLocation"
+    },
+    "txt_locationHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/float_location"
+    },
+    "txt_bioHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/float_bio"
+    },
+    "txt_dobHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/float_dob"
+    },
+    "txt_websiteHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/float_website"
+    },
+    "txt_emailHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/float_email"
+    },
+    "txt_mblHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/float_mobile"
+    },
+    "txt_genderHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/float_gender"
+    },
+    "txt_maritalstatusHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/float_marital_status"
+    },
+    "txt_sociallinksHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/float_name"
+    },
+    "btn_backArrow" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/backArrow"
+    },
+    "btn_addMoreImageIcon" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/addMoreImageIcon"
+    },
+    "txt_addPhotos" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView)[1]"
+    },
+    "txt_mail" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/rl_email"
+    },
+    "txt_enterEmailHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/login_header"
+    },
+    "txt_enterEmail" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/email_edittext"
+    },
+    "getOTP_inEMail" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/email_continue_button"
+    },
+    "verificationMsg" : {
+      "locatorType" : "id",
+      "locatorValue" : "android:id/message"
+    },
+    "btn_editProfileName" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/et_name"
+    },
+    "btn_editProfileHandle" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/et_handle"
+    },
+    "btn_editProfileSaveChanges" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/save_button"
+    },
+    "btn_editProfileProfession" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_profession"
+    },
+    "btn_editProfileDelete" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/ivSettings"
+    },
+    "btn_editProfileBio" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_bio_expandable"
+    },
+    "btn_editProfileDOB" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_dob"
+    },
+    "btn_editProfileWebsite" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_website"
+    }
+  },
+  "ProfileScreen" : {
+    "img_profilePic" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/image_view"
+    },
+    "txt_profileName" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/channel_name_textview"
+    },
+    "btn_selfVerifyTag" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/btn_self_verify"
+    },
+    "btn_backInProfileScreen" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/layoutBack"
+    },
+    "btn_threeDots" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/layoutOptionMenu"
+    },
+    "btn_addImages" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/addMoreImageIcon"
+    },
+    "btn_backInAddphotos" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@content-desc='BACK']"
+    },
+    "btn_editProfilePic" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/menu_pic_edit"
+    },
+    "txt_noOfProfilePhotos" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/image_position_text"
+    },
+    "txt_profession" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/profession_textview"
+    },
+    "txt_bio" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/description_textview"
+    },
+    "btn_more" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/read_more"
+    },
+    "btn_backInProfilePicturesScreen" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageButton"
+    },
+    "txt_profileNameinMorePopup" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView)[1]"
+    },
+    "btn_editinMorePopup" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView)[3]"
+    },
+    "txt_professioninMorePopup" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView)[4]"
+    },
+    "txt_bioinMorePopup" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView)[5]"
+    },
+    "txt_dateOfJoininMorePopup" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView)[6]"
+    },
+    "txt_socialMedialinksHeadinginMorePopup" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView)[7]"
+    },
+    "btn_closeinMorePopup" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView)[9]"
+    },
+    "tab_people" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.LinearLayout[@content-desc='###']"
+    },
+    "btn_arrowInPeopleTab" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/header_icon_right"
+    },
+    "btn_arrowForSpecificSectionUnderPeopleTa" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']//following-sibling::android.widget.ImageView[@resource-id='com.koo.app:id/header_icon_right']"
+    },
+    "btn_publicProfile" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView)[3]"
+    },
+    "btn_followInPublicProfile" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tvFollow"
+    },
+    "btn_follow1InPublicProfile" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/ivFollow"
+    },
+    "btn_ShareInPublicProfile" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/itemShareUrl"
+    },
+    "btn_followingInPublicProfile" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/itemfollowUser"
+    },
+    "btn_directMsgInPublicProfile" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/itemdirectmessage"
+    },
+    "btn_blockMsgInPublicProfile" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/itemblockUser"
+    },
+    "btn_reportUserInPublicProfile" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/itemreportUser"
+    },
+    "btn_closeInPublicProfile" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/bottom_sheet_close"
+    },
+    "txt_pplYouCanFollow" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/top_user_title"
+    },
+    "txt_noOfKoos" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView)[12]"
+    },
+    "txt_noOfKoos1" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@content-desc='CREATED_KOO']/.."
+    },
+    "txt_noOfLikes" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView)[13]"
+    },
+    "txt_noOfComments" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView)[14]"
+    },
+    "txt_noOfReKoos" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView)[15]"
+    },
+    "txt_noOfMentions" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@content-desc='MENTIONS']"
+    },
+    "txt_noOfSaved" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@content-desc='ADD_TO_FAVOURITE']"
+    },
+    "btn_addforimage" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.Button"
+    },
+    "btn_editAadhar" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/edit_Aadhar"
+    },
+    "txt_errorMsg" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/error_textview"
+    },
+    "btn_getOTP" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/otp_button"
+    },
+    "txt_profileHeader" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@text='Rajesh'])[2]"
+    },
+    "txt_msgPosted" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/topic_title_textview"
+    },
+    "btn_bengaliLang" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/text_multilan_title'])[2]"
+    },
+    "btn_expandThreadKoo" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tvExpandThread"
+    },
+    "txt_likedProfileHeader" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/layout_profile"
+    },
+    "btn_threadkooCommentbox" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.ImageView[@resource-id='com.koo.app:id/comment_imageview'])[1]"
+    },
+    "btn_commentinThreadKoo" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.EditText"
+    },
+    "txt_comments" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/header_text"
+    },
+    "btn_showThisThreadInCommentsTab" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tvShowThisThread"
+    },
+    "txt_rekoowithComments" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_koo_header"
+    },
+    "btn_saved" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/btnAddToFavorite"
+    },
+    "txt_kooSavedTime" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/koo_time_creation_tv"
+    },
+    "btn_followers" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/followers_layout"
+    },
+    "txt_followersheading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/toolbar_heading_textview"
+    },
+    "btn_following" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/following_layout"
+    },
+    "txt_followingheading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/toolbar_heading_textview"
+    },
+    "txt_all" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/custom_tab_text'])[1]"
+    },
+    "txt_latest" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/custom_tab_text'])[2]"
+    },
+    "btn_follow" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@text='###'])[1]"
+    },
+    "btn_pinToProfile" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/itempinKoo"
+    },
+    "btn_yes" : {
+      "locatorType" : "id",
+      "locatorValue" : "android:id/button1"
+    },
+    "txt_pinnedKoo" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_koo_pinned"
+    },
+    "skipAndContinue" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/bt_continue"
+    },
+    "createFirstKoo" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_create_koo"
+    },
+    "likesKoos" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@content-desc='LIKE_KOOS']"
+    },
+    "noKoos" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_title"
+    },
+    "commentsKoos" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@content-desc='COMMENT_KOOS']"
+    },
+    "mentionsKoos" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@content-desc='MENTIONS']"
+    }
+  },
+  "Notifications" : {
+    "btn_notification" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/layout_notification"
+    },
+    "btn_all" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "btn_followers_inNotification" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "btn_comments_inNotification" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "btn_mentions_inNotification" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "btn_reactions_inNotification" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "btn_others_inNotification" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "txt_alltabsinfotext" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/notification_text'])[1]"
+    },
+    "txt_followerstabsinfotext" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/justification_text'])[1]"
+    },
+    "txt_reactionstabsinfotext" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/notification_text'])[1]"
+    },
+    "txt_profileNameinCommentsInnotification" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/channel_name_textview"
+    },
+    "txt_otherstabsinfotext" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/notification_text'])[1]"
+    },
+    "btn_settingsInNotification" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/iv_notif_pref"
+    },
+    "txt_notificationPreferances" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/toolbar_heading_textview"
+    },
+    "txt_activities" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "btn_followinComments" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/action_button'])[1]"
+    }
+       
+  },
+  "KooRewardsProgram" : {
+    "btn_referAndNow" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/btn_refer_now_big"
+    },
+    "txt_referTitle" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_title"
+    },
+    "txt_referSubTitle" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_sub_title"
+    },
+    "btn_copylink" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/btnCopy"
+    },
+    "btn_whatsappinRefer" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/btnWhatsApp"
+    },
+    "btn_shareinRefer" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/btnShare"
+    }, 
+    "txt_sendto" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='Send to…']"
+    },
+    "btn_backInWhatsp" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageButton[@content-desc='Navigate up']"
+    }, 
+    "txt_Share" : {
+      "locatorType" : "id",
+      "locatorValue" : "android:id/text1"
+    },  
+    "btn_earnCashOnKoo" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/header"
+    },
+    "txt_kooRewardCentreHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/toolbar_heading_textview"
+    },
+    "btn_kooCoinHistory" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/layerCoins"
+    },
+    "txt_coinHistoryHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/toolbar_heading_textview"
+    },
+    "txt_earned" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "txt_redeemed" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "txt_balance" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "btn_transactionHistory" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/layerMoney"
+    },
+    "txt_transactionHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/toolbar_heading_textview"
+    },
+    "btn_earnCashOnKoo1" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/view_earnings"
+    },
+    "btn_withdraw" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/btnWithdraw"
+    },
+    "btn_skipinWithdraw" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.Button[@text='Skip']"
+    },
+    "txt_cashWithdraw" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/toolbar_heading_textview"
+    },
+    "txt_videoHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/videoHeading"
+    },
+    "txt_thumbnailLayout" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/thumbnail_layout"
+    },
+    "txt_money" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tvMoneyText"
+    },
+    "txt_moneyCountInRewardCentre" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tvMoneyCount"
+    },
+    "txt_moneyCountInRewardCentreHistory" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/tvCount'])[3]"
+    },
+    "txt_settingsInChildAccount" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/appCompatTextView3"
+    },
+    "btn_logout" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView)[15]"
+    },
+    "txt_childAccountHeading" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/handle_name_textview"
+    },
+    "btn_expandButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/expand_profiles"
+    },
+    "btn_parentProfile" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/name_score_layout"
+    },
+    "btn_switchAccount" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.FrameLayout[@resource-id='com.koo.app:id/image_holder']"
+    },
+    "btn_language" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/language_imageview"
+    },
+    "btn_manageTopics" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/manage_topic"
+    },
+    "btn_statistics" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/detailed_statistics"
+    },
+    "btn_dailyinstatistics" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/custom_tab_text'])[1]"
+    },
+    "btn_weeklyinstatistics" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/custom_tab_text'])[2]"
+    },
+    "btn_monthlyinstatistics" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/custom_tab_text'])[3]"
+    }
+    
+    
+  },
+  "Chats" : {
+    "chat_icon" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/lottie_messages"
+    },
+    "btn_followingInChat" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.LinearLayout[@content-desc='###']"
+    },
+    "btn_othersInChat" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.LinearLayout[@content-desc='###']"
+    },
+    "btn_channelIconInChat" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/channel_imageview"
+    },
+    "btn_followsYou" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/follows_you_view"
+    },
+    "btn_messagechatbox" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/message_fab"
+    },
+    "txt_messageheadingInChat" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/toolbar_heading_textview"
+    },
+    "btn_searchInChat" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/search"
+    },
+    "btn_selectProfile" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.RelativeLayout[@index=1])[1]"
+    },
+    "btn_request" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/chat_button_text"
+    },
+    "btn_backInChat" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/toolbar_back"
+    },
+    "btn_settingsInChat" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/iv_notif_pref"
+    },
+    "btn_onOffChat" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/chat_mode"
+    },
+    "btn_profileinChat" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/lobby_item_layout"
+    },
+    "txt_sendmsg" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/edittext_chat"
+    },
+    "btn_profileImageinChat" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/toolbar_image"
+    },
+    "txt_profilelink" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/layout_profile_parent"
+    },
+    "btn_sendInChat" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/button_send"
+    },
+    "btn_threedotsinChat" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/icon_options"
+    },
+    "txt_blockInChat" : {
+      "locatorType" : "id",
+      "locatorValue" : "android:id/title"
+    }
+   
+    },
+  "KooCard" : {
+    "profile_icon" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/img_my_profile"
+    },
+    "postButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@content-desc='###']"
+    },
+    "mlkButton" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@resource-id='com.koo.app:id/text_multilan_title'][@text='###']"
+    },
+    "reeKooIcon" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.ImageView[@resource-id='com.koo.app:id/rekoo_imageview']"
+    },
+    "reeKooNoButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/rekooNo"
+    },
+    "likeCount" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_stats_likes"
+    },
+    "reeKooCount" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tv_stats_rekoos"
+    },
+    "atTheRatePopUp" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[contains(@text,'@')]"
+    },
+    "addToFavoriteButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/itemAddToFavorite"
+    },
+    "saveKooRemoveKooText" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "kooTitle" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@resource-id='com.koo.app:id/topic_title_textview'][@text='###']"
+    },
+    "editProfileButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/edit_profile_button"
+    },
+    "nameField" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/float_name"
+    },
+    "handleField" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/float_handle"
+    },
+    "professionField" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/float_profession"
+    },
+    "plusFollowButton" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/tvFollowStatus"
+    },
+    "channel" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/channel_name_textview"
+    },
+    "title" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/topic_title_textview"
+    },
+    "image" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/single_image"
+    },
+    "btn_dots" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/iv_options_more"
+    },
+    "btn_play" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/play"
+    },
+    "btn_like" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/like_imageview"
+    },
+    "likeCountText" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/like_textview"
+    },
+    "btn_comment" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/comment_imageview"
+    },
+    "btn_commentText" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/comment_textview"
+    },
+    "comment_txt" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//*[@content-desc='koo_create_textField']"
+    },
+    "comment_post" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@content-desc=\"Post\"]"
+    },
+    "CommentCountText" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/comment_textview"
+    },
+    "btn_comment1" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//*[@resource-id='com.koo.app:id/comment_imageview']"
+    },
+    "btn_rekoo" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/rekoo_imageview"
+    },
+    "btn_rekoono" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/rekooNo"
+    },
+    "btn_rekooyes" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/rekooYes"
+    },
+    "back_button" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/backArrow"
+    },
+    "rekoocounttext" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/rekoo_textview"
+    },
+    "btn_whatsapp" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/whatsapp_share_iv"
+    },
+    "btn_share" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/generic_share_iv"
+    },
+    "webLink" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/link_preview_link"
+    }
+  },
+  "TopicTab" : {
+    "homePageTab": {
+      "locatorType": "xpath",
+      "locatorValue": "(//android.widget.TextView[@text='###'])"
+    },
+    "homePageAllTabs": {
+      "locatorType": "xpath",
+      "locatorValue": "(//android.widget.TextView[@resource-id='com.koo.app:id/custom_tab_text'])"
+    }
+  },
+  "Topics":{ 
+  "btn_followedtopicHeading" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/topic_title'])[1]"
+    },
+    "txt_followedtopicHeading" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@resource-id='com.koo.app:id/toolbar_heading_textview']"
+    },
+    "txt_addTopicsToYourFeed" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/header_text"
+    },
+    "btn_+toFollow" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.ImageView[@resource-id='com.koo.app:id/iv_follow_icon'])[1]"
+    },
+    "btn_popupforTopicFollow" : {
+      "locatorType" : "id",
+      "locatorValue" : "com.koo.app:id/pillMainLayout"
+    },
+    "txt_followedkoocontent" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/topic_num_koos'])[1]"
+    },
+    "btn_topicsTab" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "//android.widget.TextView[@text='###']"
+    },
+    "btn_>intopics" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.ImageView[@resource-id='com.koo.app:id/ivDetail'])[1]"
+    },
+    "txt_followedtopicHeadinginTopic" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/item_title'])[1]"
+    },
+    "txt_afterfollowedtopicHeadinginTopic" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.TextView[@resource-id='com.koo.app:id/toolbar_heading_textview'])"
+    }, 
+       "btn_+intopics" : {
+      "locatorType" : "xpath",
+      "locatorValue" : "(//android.widget.ImageView[@resource-id='com.koo.app:id/iv_follow_icon'])[10]"
+    }
+    },
+     "WelcomeScreen" : {
+		"DoneBtn" : {
+	 "locatorType" : "xpath",
+	 "locatorValue" : "//android.widget.Button[@content-desc='Done']"
+	  }
+	  }
+}

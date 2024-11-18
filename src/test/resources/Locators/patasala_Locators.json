@@ -1,0 +1,106 @@
+{
+	"WelcomeScreen": {
+		"DoneBtn": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.widget.Button[@content-desc='Done']"
+		}
+	},
+	"HomeScreen": {
+		"enterPhoneNumber_field": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.widget.EditText"
+		},
+		"OtpButton_LanguageChange": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.widget.Button[@content-desc='Get OTP']"
+		},
+		"getEnter_Otp": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.view.View[@content-desc='Enter OTP']"
+		},
+		"clickAnd_EnterOtp1": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.widget.EditText[1]"
+		},
+		"clickAnd_EnterOtp2": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.widget.EditText[2]"
+		},
+		"clickAnd_EnterOtp3": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.widget.EditText[3]"
+		},
+		"clickAnd_EnterOtp4": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.widget.EditText[4]"
+		},
+		"get_HelloHaranTag_name": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.view.View[@content-desc='Hello Aran']"
+		},
+		"clickOnStudent": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.view.View[@content-desc='Students']"
+		},
+		"getCityName": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.view.View[@content-desc='Aran, Hyderabad']"
+		},
+		"getOnStudentTag": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.view.View[@content-desc='Students']"
+		},
+		"clickOnSelectClassnDD": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.widget.Button[@content-desc='Select class']"
+		},
+		"clickOnCecClass": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.view.View[@content-desc='Jr. CEC']"
+		},
+		"clickOnLKGClass": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.view.View[@content-desc='LKG']"
+		},
+		"clickOnLKGStudent": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.widget.ImageView[@content-desc='CHIKKAM RAM SIYA LKG | Sec A | - | MTM11038']"
+		},
+		"getStudentName": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.view.View[@content-desc='CHIKKAM RAM SIYA profile']"
+		},
+		"clickOnChangeOhoto": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.widget.Button[@content-desc='Change photo']"
+		},
+		"getchangeOhotoTag": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.view.View[@content-desc='Student photo']"
+		},
+		"clickOnTakePhoto": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.widget.Button[@content-desc='Take Photo']"
+		},
+		"clickOnPhoto": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.view.View[@content-desc='Photo']"
+		},
+		"clickOnConform": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.widget.Button[@content-desc='Confirm']"
+		},
+		"clickOnSubmit": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.widget.Button[@content-desc='Submit']"
+		},
+		"clickOnRemovie": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.widget.Button[@content-desc='Remove photo']"
+		},
+		"getTostMsg": {
+			"locatorType": "xpath",
+			"locatorValue": "//android.widget.Toast"
+		}
+	}
+}
